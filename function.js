@@ -35,3 +35,25 @@ function calculateTax(amount) {
 
 let tax = calculateTax(100);
 console.log(tax);
+
+//function-expression
+setTimeout(function() {
+  console.log("I waited 3 seconds");
+}, 2000);
+
+//global variable
+let counter = 0;
+//infinite calling
+function timeOut() {
+  setTimeout(function() {
+    console.log("I waited 3 seconds " + counter++);
+    timeOut();
+  }, 3000);
+}
+
+//timeOut();
+
+//Immediate invokation
+(function() {
+  console.log("ho,Immediatly invoked");
+})();
