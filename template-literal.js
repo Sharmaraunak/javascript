@@ -12,6 +12,7 @@ console.log(`hi ${name}`);
     and consisting of a 
     main clause and sometimes 
     one or more subordinate 
+ 
     clauses.`;
 
 console.log(sentence); */
