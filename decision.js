@@ -8,4 +8,16 @@ if (/*condition*/ count == 1) {
   console.log("count is  not 1");
 }
 
-//
+//switch
+let hero = "superman";
+switch (hero) {
+  case "superman":
+    console.log("super strength");
+    break;
+  case "batman":
+    console.log("fighting skills");
+    break;
+  default:
+    console.log("member of JLA");
+    break;
+}
