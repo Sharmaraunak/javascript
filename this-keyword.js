@@ -10,7 +10,7 @@
     console.log(this.make + " : " + this.model);
   }
 }; */
-
+//this represent context
 function first() {
   return this;
 }
